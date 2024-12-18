@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{982F8748-D937-4B18-A363-838DE7CC2D01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5CADBB2A-D6A6-458D-8EB0-90F2287AC2E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B800B3FD-F4E4-4739-A979-2CAA38CF331F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{54133902-2B1B-43F4-8B42-B2BBF4FD6684}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShishByzh.Identity", "ShishByzh.Identity\ShishByzh.Identity.csproj", "{F3CCD2C0-E7F8-45A2-BCF3-6257A9D0C636}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D9BE3B6-AB53-43FB-A4A7-874210455FDA}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		default.conf = default.conf
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		database_secret.txt = database_secret.txt
+		jwt_secret.txt = jwt_secret.txt
+		database_secret_example.txt = database_secret_example.txt
+		jwt_secret_example.txt = jwt_secret_example.txt
+	EndProjectSection
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ShishByzh.Client", "ShishByzh.Client\ShishByzh.Client.esproj", "{75191ECF-0157-469E-BBE4-3CCBB4141D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShishByzh.Server", "ShishByzh.Server\ShishByzh.Server.csproj", "{E1BCEC13-1575-4732-85A0-8BED7C44E6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShishByzh.Domain", "ShishByzh.Domain\ShishByzh.Domain.csproj", "{A9525F95-8DFA-42D9-B70B-5F3A77D933EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShishByzh.Persistence", "ShishByzh.Persistence\ShishByzh.Persistence.csproj", "{7CA9939C-1D4E-4ACD-82E6-EADB66D29542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShishByzh.Application", "ShishByzh.Application\ShishByzh.Application.csproj", "{74DB74B5-04B1-40EE-B800-B1B57C817BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{D60AFC31-F0E2-469A-A8ED-4F3CF23933AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3CCD2C0-E7F8-45A2-BCF3-6257A9D0C636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CCD2C0-E7F8-45A2-BCF3-6257A9D0C636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CCD2C0-E7F8-45A2-BCF3-6257A9D0C636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CCD2C0-E7F8-45A2-BCF3-6257A9D0C636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E1BCEC13-1575-4732-85A0-8BED7C44E6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BCEC13-1575-4732-85A0-8BED7C44E6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BCEC13-1575-4732-85A0-8BED7C44E6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BCEC13-1575-4732-85A0-8BED7C44E6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9525F95-8DFA-42D9-B70B-5F3A77D933EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9525F95-8DFA-42D9-B70B-5F3A77D933EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9525F95-8DFA-42D9-B70B-5F3A77D933EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9525F95-8DFA-42D9-B70B-5F3A77D933EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA9939C-1D4E-4ACD-82E6-EADB66D29542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA9939C-1D4E-4ACD-82E6-EADB66D29542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA9939C-1D4E-4ACD-82E6-EADB66D29542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA9939C-1D4E-4ACD-82E6-EADB66D29542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74DB74B5-04B1-40EE-B800-B1B57C817BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DB74B5-04B1-40EE-B800-B1B57C817BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DB74B5-04B1-40EE-B800-B1B57C817BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DB74B5-04B1-40EE-B800-B1B57C817BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75191ECF-0157-469E-BBE4-3CCBB4141D32} = {982F8748-D937-4B18-A363-838DE7CC2D01}
+		{E1BCEC13-1575-4732-85A0-8BED7C44E6EE} = {982F8748-D937-4B18-A363-838DE7CC2D01}
+		{A9525F95-8DFA-42D9-B70B-5F3A77D933EB} = {B800B3FD-F4E4-4739-A979-2CAA38CF331F}
+		{7CA9939C-1D4E-4ACD-82E6-EADB66D29542} = {5CADBB2A-D6A6-458D-8EB0-90F2287AC2E7}
+		{74DB74B5-04B1-40EE-B800-B1B57C817BF9} = {B800B3FD-F4E4-4739-A979-2CAA38CF331F}
+		{F3CCD2C0-E7F8-45A2-BCF3-6257A9D0C636} = {D60AFC31-F0E2-469A-A8ED-4F3CF23933AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E72FC2B0-C58A-485A-8CE6-94889E075FE4}
+	EndGlobalSection
+EndGlobal
